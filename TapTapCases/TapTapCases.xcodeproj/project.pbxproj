@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADF4CCEB536594637EFB2C1B /* Pods_TapTapCases.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C34B3FD68D77FDBFFA376C24 /* Pods_TapTapCases.framework */; };
+		F423202B2CBD609D007FF013 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F423202A2CBD609D007FF013 /* AppDelegate.swift */; };
+		F423202D2CBD609D007FF013 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F423202C2CBD609D007FF013 /* SceneDelegate.swift */; };
+		F423202F2CBD609D007FF013 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F423202E2CBD609D007FF013 /* ViewController.swift */; };
+		F42320342CBD609E007FF013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F42320332CBD609E007FF013 /* Assets.xcassets */; };
+		F42320372CBD609E007FF013 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F42320362CBD609E007FF013 /* Base */; };
+		F42320412CBD6210007FF013 /* TapTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42320402CBD6210007FF013 /* TapTap.swift */; };
+		F42320432CBD631D007FF013 /* DisabledViewNotIgnoringTouches.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42320422CBD631D007FF013 /* DisabledViewNotIgnoringTouches.swift */; };
+		F42320452CBD6445007FF013 /* IgnoringTouchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42320442CBD6445007FF013 /* IgnoringTouchesView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A93880A7DCCEB06BD2E254B /* Pods-TapTapCases.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapTapCases.release.xcconfig"; path = "Target Support Files/Pods-TapTapCases/Pods-TapTapCases.release.xcconfig"; sourceTree = "<group>"; };
+		C34B3FD68D77FDBFFA376C24 /* Pods_TapTapCases.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapTapCases.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A0DCFDF2713BB3FE462DD4 /* Pods-TapTapCases.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapTapCases.debug.xcconfig"; path = "Target Support Files/Pods-TapTapCases/Pods-TapTapCases.debug.xcconfig"; sourceTree = "<group>"; };
+		F42320272CBD609D007FF013 /* TapTapCases.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapTapCases.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F423202A2CBD609D007FF013 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F423202C2CBD609D007FF013 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F423202E2CBD609D007FF013 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F42320332CBD609E007FF013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F42320362CBD609E007FF013 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F42320382CBD609E007FF013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F42320402CBD6210007FF013 /* TapTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapTap.swift; sourceTree = "<group>"; };
+		F42320422CBD631D007FF013 /* DisabledViewNotIgnoringTouches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisabledViewNotIgnoringTouches.swift; sourceTree = "<group>"; };
+		F42320442CBD6445007FF013 /* IgnoringTouchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoringTouchesView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F42320242CBD609D007FF013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF4CCEB536594637EFB2C1B /* Pods_TapTapCases.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5F9EA6CE3AB1117F0AA82E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7A0DCFDF2713BB3FE462DD4 /* Pods-TapTapCases.debug.xcconfig */,
+				8A93880A7DCCEB06BD2E254B /* Pods-TapTapCases.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B62F2B154DB944BB3AE63300 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C34B3FD68D77FDBFFA376C24 /* Pods_TapTapCases.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F423201E2CBD609D007FF013 = {
+			isa = PBXGroup;
+			children = (
+				F42320292CBD609D007FF013 /* TapTapCases */,
+				F42320282CBD609D007FF013 /* Products */,
+				A5F9EA6CE3AB1117F0AA82E7 /* Pods */,
+				B62F2B154DB944BB3AE63300 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F42320282CBD609D007FF013 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F42320272CBD609D007FF013 /* TapTapCases.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F42320292CBD609D007FF013 /* TapTapCases */ = {
+			isa = PBXGroup;
+			children = (
+				F423203E2CBD61D7007FF013 /* Cases */,
+				F423202A2CBD609D007FF013 /* AppDelegate.swift */,
+				F423202C2CBD609D007FF013 /* SceneDelegate.swift */,
+				F423202E2CBD609D007FF013 /* ViewController.swift */,
+				F42320402CBD6210007FF013 /* TapTap.swift */,
+				F42320332CBD609E007FF013 /* Assets.xcassets */,
+				F42320352CBD609E007FF013 /* LaunchScreen.storyboard */,
+				F42320382CBD609E007FF013 /* Info.plist */,
+			);
+			path = TapTapCases;
+			sourceTree = "<group>";
+		};
+		F423203E2CBD61D7007FF013 /* Cases */ = {
+			isa = PBXGroup;
+			children = (
+				F423203F2CBD61DD007FF013 /* Case1 */,
+			);
+			path = Cases;
+			sourceTree = "<group>";
+		};
+		F423203F2CBD61DD007FF013 /* Case1 */ = {
+			isa = PBXGroup;
+			children = (
+				F42320422CBD631D007FF013 /* DisabledViewNotIgnoringTouches.swift */,
+				F42320442CBD6445007FF013 /* IgnoringTouchesView.swift */,
+			);
+			path = Case1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F42320262CBD609D007FF013 /* TapTapCases */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F423203B2CBD609E007FF013 /* Build configuration list for PBXNativeTarget "TapTapCases" */;
+			buildPhases = (
+				6C75C0F9FA42550995F15CAD /* [CP] Check Pods Manifest.lock */,
+				F42320232CBD609D007FF013 /* Sources */,
+				F42320242CBD609D007FF013 /* Frameworks */,
+				F42320252CBD609D007FF013 /* Resources */,
+				DAA1CECF135C16E7A334B834 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapTapCases;
+			productName = TapTapCases;
+			productReference = F42320272CBD609D007FF013 /* TapTapCases.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F423201F2CBD609D007FF013 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F42320262CBD609D007FF013 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = F42320222CBD609D007FF013 /* Build configuration list for PBXProject "TapTapCases" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F423201E2CBD609D007FF013;
+			productRefGroup = F42320282CBD609D007FF013 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F42320262CBD609D007FF013 /* TapTapCases */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F42320252CBD609D007FF013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42320342CBD609E007FF013 /* Assets.xcassets in Resources */,
+				F42320372CBD609E007FF013 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C75C0F9FA42550995F15CAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TapTapCases-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAA1CECF135C16E7A334B834 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TapTapCases/Pods-TapTapCases-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TapTapCases/Pods-TapTapCases-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TapTapCases/Pods-TapTapCases-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F42320232CBD609D007FF013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F423202F2CBD609D007FF013 /* ViewController.swift in Sources */,
+				F42320452CBD6445007FF013 /* IgnoringTouchesView.swift in Sources */,
+				F42320412CBD6210007FF013 /* TapTap.swift in Sources */,
+				F423202B2CBD609D007FF013 /* AppDelegate.swift in Sources */,
+				F42320432CBD631D007FF013 /* DisabledViewNotIgnoringTouches.swift in Sources */,
+				F423202D2CBD609D007FF013 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F42320352CBD609E007FF013 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F42320362CBD609E007FF013 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F42320392CBD609E007FF013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F423203A2CBD609E007FF013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F423203C2CBD609E007FF013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7A0DCFDF2713BB3FE462DD4 /* Pods-TapTapCases.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GBDSAYFJ49;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TapTapCases/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lb.TapTapCases;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F423203D2CBD609E007FF013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A93880A7DCCEB06BD2E254B /* Pods-TapTapCases.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GBDSAYFJ49;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TapTapCases/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lb.TapTapCases;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F42320222CBD609D007FF013 /* Build configuration list for PBXProject "TapTapCases" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42320392CBD609E007FF013 /* Debug */,
+				F423203A2CBD609E007FF013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F423203B2CBD609E007FF013 /* Build configuration list for PBXNativeTarget "TapTapCases" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F423203C2CBD609E007FF013 /* Debug */,
+				F423203D2CBD609E007FF013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F423201F2CBD609D007FF013 /* Project object */;
+}
