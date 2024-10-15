@@ -18,6 +18,8 @@
 		F42320452CBD6445007FF013 /* IgnoringTouchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42320442CBD6445007FF013 /* IgnoringTouchesView.swift */; };
 		F42320482CBE52DF007FF013 /* OutOfTheBounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42320472CBE52DF007FF013 /* OutOfTheBounds.swift */; };
 		F423204C2CBE765E007FF013 /* PointOutsideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F423204B2CBE765E007FF013 /* PointOutsideView.swift */; };
+		F423204F2CBE79A0007FF013 /* IncreaseTapContainerForView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F423204E2CBE79A0007FF013 /* IncreaseTapContainerForView.swift */; };
+		F42320512CBE7B88007FF013 /* BigTapContainerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42320502CBE7B88007FF013 /* BigTapContainerButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		F42320442CBD6445007FF013 /* IgnoringTouchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoringTouchesView.swift; sourceTree = "<group>"; };
 		F42320472CBE52DF007FF013 /* OutOfTheBounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutOfTheBounds.swift; sourceTree = "<group>"; };
 		F423204B2CBE765E007FF013 /* PointOutsideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointOutsideView.swift; sourceTree = "<group>"; };
+		F423204E2CBE79A0007FF013 /* IncreaseTapContainerForView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncreaseTapContainerForView.swift; sourceTree = "<group>"; };
+		F42320502CBE7B88007FF013 /* BigTapContainerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigTapContainerButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,7 @@
 			children = (
 				F423203F2CBD61DD007FF013 /* Case1 */,
 				F42320462CBE52AA007FF013 /* Case2 */,
+				F423204D2CBE798F007FF013 /* Case3 */,
 			);
 			path = Cases;
 			sourceTree = "<group>";
@@ -125,6 +130,15 @@
 				F423204B2CBE765E007FF013 /* PointOutsideView.swift */,
 			);
 			path = Case2;
+			sourceTree = "<group>";
+		};
+		F423204D2CBE798F007FF013 /* Case3 */ = {
+			isa = PBXGroup;
+			children = (
+				F423204E2CBE79A0007FF013 /* IncreaseTapContainerForView.swift */,
+				F42320502CBE7B88007FF013 /* BigTapContainerButton.swift */,
+			);
+			path = Case3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,8 +259,10 @@
 				F42320452CBD6445007FF013 /* IgnoringTouchesView.swift in Sources */,
 				F423204C2CBE765E007FF013 /* PointOutsideView.swift in Sources */,
 				F42320412CBD6210007FF013 /* TapTap.swift in Sources */,
+				F42320512CBE7B88007FF013 /* BigTapContainerButton.swift in Sources */,
 				F423202B2CBD609D007FF013 /* AppDelegate.swift in Sources */,
 				F42320432CBD631D007FF013 /* DisabledViewNotIgnoringTouches.swift in Sources */,
+				F423204F2CBE79A0007FF013 /* IncreaseTapContainerForView.swift in Sources */,
 				F42320482CBE52DF007FF013 /* OutOfTheBounds.swift in Sources */,
 				F423202D2CBD609D007FF013 /* SceneDelegate.swift in Sources */,
 			);
