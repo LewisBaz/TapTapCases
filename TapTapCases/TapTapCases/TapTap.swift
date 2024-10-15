@@ -7,4 +7,5 @@
 
 enum TapTap: String, CaseIterable {
     case disabledViewNotIgnoringTouches
+    case outOfTheBoundsView
 }

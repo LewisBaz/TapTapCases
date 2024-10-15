@@ -29,6 +29,8 @@ class ViewController: UITableViewController {
         switch tap {
         case .disabledViewNotIgnoringTouches:
             navigationController?.pushViewController(DisabledViewNotIgnoringTouches(), animated: true)
+        case .outOfTheBoundsView:
+            navigationController?.pushViewController(OutOfTheBounds(), animated: true)
         }
     }
 

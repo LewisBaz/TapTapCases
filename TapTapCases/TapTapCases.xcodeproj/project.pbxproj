@@ -16,6 +16,8 @@
 		F42320412CBD6210007FF013 /* TapTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42320402CBD6210007FF013 /* TapTap.swift */; };
 		F42320432CBD631D007FF013 /* DisabledViewNotIgnoringTouches.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42320422CBD631D007FF013 /* DisabledViewNotIgnoringTouches.swift */; };
 		F42320452CBD6445007FF013 /* IgnoringTouchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42320442CBD6445007FF013 /* IgnoringTouchesView.swift */; };
+		F42320482CBE52DF007FF013 /* OutOfTheBounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42320472CBE52DF007FF013 /* OutOfTheBounds.swift */; };
+		F423204C2CBE765E007FF013 /* PointOutsideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F423204B2CBE765E007FF013 /* PointOutsideView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		F42320402CBD6210007FF013 /* TapTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapTap.swift; sourceTree = "<group>"; };
 		F42320422CBD631D007FF013 /* DisabledViewNotIgnoringTouches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisabledViewNotIgnoringTouches.swift; sourceTree = "<group>"; };
 		F42320442CBD6445007FF013 /* IgnoringTouchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoringTouchesView.swift; sourceTree = "<group>"; };
+		F42320472CBE52DF007FF013 /* OutOfTheBounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutOfTheBounds.swift; sourceTree = "<group>"; };
+		F423204B2CBE765E007FF013 /* PointOutsideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointOutsideView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				F423203F2CBD61DD007FF013 /* Case1 */,
+				F42320462CBE52AA007FF013 /* Case2 */,
 			);
 			path = Cases;
 			sourceTree = "<group>";
@@ -111,6 +116,15 @@
 				F42320442CBD6445007FF013 /* IgnoringTouchesView.swift */,
 			);
 			path = Case1;
+			sourceTree = "<group>";
+		};
+		F42320462CBE52AA007FF013 /* Case2 */ = {
+			isa = PBXGroup;
+			children = (
+				F42320472CBE52DF007FF013 /* OutOfTheBounds.swift */,
+				F423204B2CBE765E007FF013 /* PointOutsideView.swift */,
+			);
+			path = Case2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +243,11 @@
 			files = (
 				F423202F2CBD609D007FF013 /* ViewController.swift in Sources */,
 				F42320452CBD6445007FF013 /* IgnoringTouchesView.swift in Sources */,
+				F423204C2CBE765E007FF013 /* PointOutsideView.swift in Sources */,
 				F42320412CBD6210007FF013 /* TapTap.swift in Sources */,
 				F423202B2CBD609D007FF013 /* AppDelegate.swift in Sources */,
 				F42320432CBD631D007FF013 /* DisabledViewNotIgnoringTouches.swift in Sources */,
+				F42320482CBE52DF007FF013 /* OutOfTheBounds.swift in Sources */,
 				F423202D2CBD609D007FF013 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
